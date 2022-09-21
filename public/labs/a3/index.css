@@ -264,18 +264,44 @@ p#id-selector-2 {
 }
 
 .gradients-linear {
-    background: linear-gradient(rebeccapurple, crimson);
+    background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-linear-my-example {
+    background: linear-gradient(blue, orangered);
     width: 200px;
     height: 200px;
 }
 
 .gradients-radial {
+    background: radial-gradient(yellow, green);
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.gradients-radial-my-example {
     background: radial-gradient(hotpink, mediumspringgreen);
     width: 200px;
     height: 200px;
 }
 
 .gradients-positioned {
+    background:
+            radial-gradient(
+                    at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+
+
+.gradients-positioned-my-example {
     background:
             radial-gradient(
                     at top left, orangered, dodgerblue);
