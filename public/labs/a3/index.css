@@ -311,6 +311,167 @@ p#id-selector-2 {
 }
 
 
+.animation-keyframes {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+.animation-keyframes-my-example {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein-my-example;
+    width: 20px;
+    height: 50px;
+    background-color: hotpink;
+    color: mediumpurple;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+
+@keyframes slidein-my-example {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 50%;
+        margin-left: 80%;
+        width: 10px;
+        height: 100px;
+        background-color: steelblue;
+        color: greenyellow;
+    }
+
+
+    50% {
+        position: relative;
+        top: -100px;
+        font-size: 10%;
+        margin-left: 55%;
+        width: 100px;
+        height: 200px;
+        background-color: dodgerblue;
+        color: lawngreen;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 30%;
+        margin-left: 0%;
+        width: 50px;
+        height: 80px;
+        background-color: mediumspringgreen;
+        color: purple;
 
 
 
+    }
+}
+
+
+.flex-container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.flex-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-box-1 {
+    background-color: yellow;
+}
+.flex-box-2 {
+    background-color: blue;
+    color: white;
+}
+.flex-box-3 {
+    background-color: red;
+    color: white;
+}
+
+
+.flex-container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.flex-container-center-example {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-end-example {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container-space-around-example {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container-space-between-example {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
