@@ -517,6 +517,16 @@ and (max-width: 600px) {
         background-color: red;
         color: white;
     }
+
+    .media-query-my-example-0-600 {
+        background-color: hotpink;
+        color: mediumspringgreen;
+    }
+
+    .media-query-my-example-heading-0-600 {
+        background-color: orangered;
+        color: blue;
+    }
 }
 
 @media (min-width: 600px)
@@ -529,6 +539,16 @@ and (max-width: 1200px) {
         background-color: yellow;
         color: black;
     }
+
+    .media-query-my-example-600-1200 {
+        background-color: lightseagreen;
+        color: midnightblue;
+    }
+
+    .media-query-my-example-heading-600-1200 {
+        background-color: lawngreen;
+        color: deeppink;
+    }
 }
 
 @media (min-width: 1200px)
@@ -540,5 +560,15 @@ and (max-width: 1800px) {
     .media-query {
         background-color: blue;
         color: white;
+    }
+
+    .media-query-my-example-1200 {
+        background-color: rebeccapurple;
+        color: lightcoral;
+    }
+
+    .media-query-my-example-heading-1200 {
+        background-color: darkturquoise;
+        color: greenyellow;
     }
 }
