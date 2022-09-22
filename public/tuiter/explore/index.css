@@ -20,7 +20,16 @@
 
 }
 
-.wd-hyperlinks:link {
+.wd-hyperlink {
     color: rgb(110, 118, 125);
+    padding: 16px;
+    size: 15px;
+
+}
+
+.wd-highlight-link{
+    color: rgb(29,161,242);
+    padding: 16px;
+    size: 15px;
 
 }
