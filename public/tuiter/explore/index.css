@@ -1,0 +1,26 @@
+.wd-Tuiter-search-bar {
+    color: white;
+    background-color: gray;
+    border-radius: 25px;
+    width: 90%;
+
+}
+
+.wd-Tuiter-search-bar::placeholder {
+    opacity: .5;
+    color: white;
+
+}
+
+.wd-gear {
+
+    float: right;
+    padding-right: 12px;
+    color: rgb(29, 161, 242);
+
+}
+
+.wd-hyperlinks:link {
+    color: rgb(110, 118, 125);
+
+}
