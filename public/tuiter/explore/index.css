@@ -48,6 +48,7 @@
     padding: 15px;
 
 
+
 }
 
 .wd-suggested-posts-heading{
@@ -66,6 +67,16 @@
     padding-right: 16px;
     background-color: cornsilk;
     border-radius: 25px;
+
+
+}
+
+.wd-post-author{
+
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+
 
 
 }
