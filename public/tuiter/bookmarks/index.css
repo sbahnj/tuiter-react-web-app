@@ -1,0 +1,38 @@
+.wd-title{
+
+    padding-left: 16px;
+    padding-top: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.wd-border{
+
+    height: 1px;
+    background-color: rgb(110, 118, 125);
+
+}
+
+.wd-avatar-image{
+
+
+
+    padding-left: 16px;
+    padding-top: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 48px;
+
+}
+
+.wd-avatar-name{
+
+    color: white;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-top: 12px;
+
+
+}
