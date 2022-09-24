@@ -36,3 +36,25 @@
 
 
 }
+
+.wd-post-content{
+
+    color: white;
+    font-size: 15px;
+    width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+
+
+}
+
+.wd-content-image{
+
+
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    padding-right: 12px;
+
+}
