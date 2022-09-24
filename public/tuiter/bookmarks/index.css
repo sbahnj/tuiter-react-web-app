@@ -33,6 +33,7 @@
     font-size: 15px;
     padding-left: 12px;
     padding-top: 12px;
+    font-weight: bold;
 
 
 }
@@ -46,6 +47,7 @@
     padding-bottom: 12px;
 
 
+
 }
 
 .wd-content-image{
@@ -56,5 +58,13 @@
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     padding-right: 12px;
+
+}
+
+.wd-image-text{
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding: 12px;
+    width: 504px;
 
 }
