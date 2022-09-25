@@ -44,9 +44,10 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    padding: 15px;
+    width: 50%;
     background-color: #61dafb;
-    width: 80%;
+    padding: 15px;
+    float:left;
 
 
 }
