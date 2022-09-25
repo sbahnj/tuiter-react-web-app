@@ -66,6 +66,7 @@
     color: rgb(110, 118, 125);
     padding: 12px;
     width: 504px;
+    background-color: #61dafb;
 
 }
 
@@ -73,6 +74,24 @@
 
     padding: 12px;
     color: rgb(110, 118, 125);
+    float: left;
+    background-color: cornsilk;
+    width: 20%;
+
+
+
+
+}
+
+
+.wd-red-icon{
+
+    padding: 12px;
+    color: red;
+    float: left;
+    background-color: cornsilk;
+    width: 20%;
+
 
 
 }
