@@ -44,10 +44,9 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    width: 50%;
-    background-color: #61dafb;
+    width: 80%;
     padding: 15px;
-    float:left;
+
 
 
 }
@@ -74,3 +73,19 @@
 
 }
 
+.wd-grid-col-main-content {
+    width: 80%;
+    float: left;
+    background-color: black;
+}
+
+.wd-grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+    background-color: black;
+}
+
+.wd-placeholder{
+
+    color: black;
+}
