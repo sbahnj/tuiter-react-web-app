@@ -8,12 +8,18 @@
 
 }
 
-.wd-border{
+.wd-header-group{
 
-    height: 1px;
-    background-color: rgb(110, 118, 125);
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+
+
 
 }
+
+
+
 
 .wd-avatar-image{
 
@@ -22,7 +28,6 @@
     padding-left: 16px;
     padding-top: 12px;
     border-radius: 50%;
-    overflow: hidden;
     width: 48px;
 
 }
@@ -74,9 +79,9 @@
 
     padding: 12px;
     color: rgb(110, 118, 125);
-    float: left;
+
     background-color: cornsilk;
-    width: 20%;
+
 
 
 
@@ -88,10 +93,22 @@
 
     padding: 12px;
     color: red;
-    float: left;
+
     background-color: cornsilk;
-    width: 20%;
 
 
 
+
+}
+
+.wd-grid-col-grey {
+    width: 25%;
+    float: left;
+    background-color: black;
+}
+
+.wd-grid-col-red {
+    width: 25%;
+    float: left;
+    background-color: black;
 }
