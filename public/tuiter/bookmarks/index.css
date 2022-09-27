@@ -39,6 +39,7 @@
     padding-left: 12px;
     padding-top: 12px;
     font-weight: bold;
+    width: 502px;
 
 
 }
@@ -47,7 +48,7 @@
 
     color: white;
     font-size: 15px;
-    width: 506px;
+    width: 504px;
     padding-right: 16px;
     padding-bottom: 12px;
 
@@ -70,45 +71,33 @@
     font-size: 15px;
     color: rgb(110, 118, 125);
     padding: 12px;
-    width: 504px;
-    background-color: #61dafb;
-
-}
-
-.wd-grey-icon{
-
-    padding: 12px;
-    color: rgb(110, 118, 125);
-
-    background-color: cornsilk;
-
-
-
-
+    width: 500px;
+    background-color: black;
 
 }
 
 
-.wd-red-icon{
-
-    padding: 12px;
-    color: red;
-
-    background-color: cornsilk;
-
-
-
-
-}
 
 .wd-grid-col-grey {
     width: 25%;
     float: left;
     background-color: black;
+    color: rgb(110, 118, 125);
 }
 
 .wd-grid-col-red {
     width: 25%;
     float: left;
     background-color: black;
+    color: red
+}
+
+.wd-text-image-group{
+
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    width: 504px;
+
 }
