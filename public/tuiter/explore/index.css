@@ -115,7 +115,18 @@
 .wd-my-nav{
 
     padding-top: 500px;
+
+
+
+}
+
+.wd-classWithPad {
+    margin:10px; padding:10px; }
+
+
+.wd-main-tuits{
+
     background-color: #ff7070;
-    font-weight: lighter;
+
 
 }
