@@ -115,11 +115,9 @@
 .wd-my-nav{
 
     padding-top: 5px;
-
     width: 12%;
     background-color: #ffff07 ;
     font-size: small;
-
 
 
 }
@@ -132,6 +130,8 @@
 
     background-color: #ff7070;
     float: right;
+    width: 50%;
+
 
 
 }
@@ -139,4 +139,5 @@
 .wd-right-column{
 
     float: right;
+    width: 20%;
 }
