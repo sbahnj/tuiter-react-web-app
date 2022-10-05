@@ -119,7 +119,13 @@
     border-color: darkgreen ;
     font-size: medium;
     font-weight: bold;
+    outline: 2px solid #ccc;
 
+
+}
+
+.wd-inner-col{
+    outline: 2px solid #ccc;
 
 }
 
