@@ -3,17 +3,18 @@
 
 .wd-Tuiter-search-bar {
 
-    background-color: rgb(78, 81, 84);
+
     border-radius: 25px;
     width: 90%;
     padding-left: 16px;
+
 
 
 }
 
 .wd-Tuiter-search-bar::placeholder {
 
-    color: white;
+    color: rgb(78, 81, 84);
     padding-left: 16px;
 
 }
