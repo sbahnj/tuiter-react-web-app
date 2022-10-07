@@ -10,12 +10,14 @@
 
 
 
+
 }
 
 .wd-Tuiter-search-bar::placeholder {
 
     color: rgb(78, 81, 84);
     padding-left: 16px;
+
 
 }
 
@@ -142,7 +144,7 @@
     float: right;
     width: 50%;
     border-width: 5px;
-    border-color: red;
+
 
 
 
@@ -169,3 +171,9 @@
     color: white;
 }
 
+.wd-tweet-button{
+
+    padding-top: 15px;
+    border-radius: 20%;
+
+}
