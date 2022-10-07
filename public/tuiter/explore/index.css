@@ -19,6 +19,7 @@
     padding-left: 16px;
 
 
+
 }
 
 .wd-gear {
@@ -120,11 +121,11 @@
 .wd-my-nav{
 
     padding-top: 5px;
+    padding-left: 12px;
     width: 12%;
-    border-color: darkgreen ;
     font-size: medium;
     font-weight: bold;
-    outline: 2px solid #ccc;
+
 
 
 }
@@ -175,5 +176,32 @@
 
     padding-top: 15px;
     border-radius: 20%;
+    padding-left: 12px;
 
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: solid;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
