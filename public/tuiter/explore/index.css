@@ -22,8 +22,10 @@
 .wd-gear {
 
     float: right;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 30px;
     color: rgb(29, 161, 242);
+
 
 }
 
@@ -151,3 +153,4 @@
     float: right;
     width: 20%;
 }
+
