@@ -154,3 +154,18 @@
     width: 20%;
 }
 
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
