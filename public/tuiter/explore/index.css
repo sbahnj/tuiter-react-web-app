@@ -176,6 +176,7 @@
     padding-top: 15px;
     border-radius: 20%;
     padding-left: 12px;
+    width: 12%;
 
 }
 
@@ -205,3 +206,8 @@
     object-fit: cover;
 }
 
+.wd-follow-button{
+
+    float: right;
+
+}
