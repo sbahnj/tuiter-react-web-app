@@ -5,8 +5,8 @@
 
 
     border-radius: 25px;
-    width: 90%;
-    padding-left: 16px;
+    width: 80%;
+    padding-left: 10px;
 
 
 
@@ -171,7 +171,7 @@
     color: white;
 }
 
-.wd-tweet-button{
+.wd-tweet-button.override-bs{
 
     padding-top: 15px;
     border-radius: 20%;
@@ -210,4 +210,14 @@
 
     float: right;
 
+}
+
+.btn-primary.override-bs {
+    background-color: dodgerblue;
+
+    border-radius: 20px;
+    padding-left: 15px;
+
+    font-size: 1em;
+    width: 12%;
 }
