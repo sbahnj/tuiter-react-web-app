@@ -1,4 +1,8 @@
+.wd-challenge-body{
+    background-color: black;
 
+
+}
 
 
 .wd-Tuiter-search-bar {
@@ -7,6 +11,7 @@
     border-radius: 25px;
     width: 80%;
     padding-left: 10px;
+    background-color: white;
 
 
 
@@ -15,8 +20,9 @@
 
 .wd-Tuiter-search-bar::placeholder {
 
-    color: rgb(78, 81, 84);
+    color: white;
     padding-left: 16px;
+    background-color: dimgrey;
 
 
 
@@ -124,6 +130,7 @@
     width: 12%;
     font-size: medium;
     font-weight: bold;
+    background-color: black;
 
 
 
@@ -131,6 +138,7 @@
 
 .wd-inner-col{
     outline: 2px solid #ccc;
+    background-color: black;
 
 }
 
@@ -168,7 +176,7 @@
 .wd-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .wd-tweet-button.override-bs{
@@ -191,6 +199,7 @@
     border: solid;
     border-radius: 100px;
     outline: none;
+    background-color: grey;
 }
 
 .search-button {
