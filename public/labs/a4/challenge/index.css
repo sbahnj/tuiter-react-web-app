@@ -1,0 +1,223 @@
+
+
+
+.wd-Tuiter-search-bar {
+
+
+    border-radius: 25px;
+    width: 80%;
+    padding-left: 10px;
+
+
+
+
+}
+
+.wd-Tuiter-search-bar::placeholder {
+
+    color: rgb(78, 81, 84);
+    padding-left: 16px;
+
+
+
+}
+
+.wd-gear {
+
+    float: right;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: rgb(29, 161, 242);
+
+
+}
+
+.wd-hyperlink {
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    size: 15px;
+
+}
+
+.wd-highlight-link{
+    color: rgb(29,161,242);
+    padding: 16px;
+    size: 15px;
+
+}
+
+
+
+.wd-suggested-posts-heading{
+
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    padding: 15px;
+
+
+
+}
+
+.wd-suggested-posts-image{
+
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-right: 16px;
+    border-radius: 25px;
+
+
+}
+
+.wd-post-author{
+
+
+    font-size: 15px;
+    padding: 15px;
+
+
+
+}
+
+.wd-grid-col-main-content {
+    width: 80%;
+    float: left;
+
+}
+
+.wd-grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+
+}
+
+.wd-placeholder{
+
+
+}
+
+.wd-suggested-posts-group{
+    width: 99%;
+    float: left;
+
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.wd-grid-row{
+
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+
+
+}
+
+.wd-my-nav{
+
+    padding-top: 5px;
+    padding-left: 12px;
+    width: 12%;
+    font-size: medium;
+    font-weight: bold;
+
+
+
+}
+
+.wd-inner-col{
+    outline: 2px solid #ccc;
+
+}
+
+.wd-classWithPad {
+    margin:10px; padding:10px; }
+
+
+.wd-main-tuits{
+
+
+    float: right;
+    width: 50%;
+    border-width: 5px;
+
+
+
+
+}
+
+.wd-right-column{
+
+    float: right;
+    width: 20%;
+}
+
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.wd-tweet-button.override-bs{
+
+    padding-top: 15px;
+    border-radius: 20%;
+    padding-left: 12px;
+    width: 12%;
+
+}
+
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: solid;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.wd-follow-button{
+
+    float: right;
+
+}
+
+.btn-primary.override-bs {
+    background-color: dodgerblue;
+
+    border-radius: 20px;
+    padding-left: 15px;
+
+    font-size: 1em;
+    width: 12%;
+}
