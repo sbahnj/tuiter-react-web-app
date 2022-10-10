@@ -218,9 +218,16 @@
     object-fit: cover;
 }
 
-.wd-follow-button{
+.wd-follow-button.override-bs{
 
-    float: right;
+    background-color: white;
+
+    border-radius: 20px;
+    padding-left: 15px;
+
+    font-size: 1em;
+    width: 12%
+
 
 }
 
