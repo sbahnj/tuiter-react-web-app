@@ -61,6 +61,7 @@
     font-weight: bold;
     width: 80%;
     padding: 15px;
+    color: white;
 
 
 
@@ -138,8 +139,8 @@
 }
 
 .wd-inner-col{
-    outline: 2px solid #ccc;
-    background-color: black;
+
+    color: rgb(190, 198, 202);
 
 }
 
