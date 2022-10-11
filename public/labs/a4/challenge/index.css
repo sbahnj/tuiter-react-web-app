@@ -240,3 +240,13 @@
     font-size: 1em;
     width: 12%;
 }
+
+.follow-btn-primary.override-bs {
+    background-color: white;
+
+    border-radius: 20px;
+    padding-left: 15px;
+
+    font-size: 1em;
+    width: 12%;
+}
