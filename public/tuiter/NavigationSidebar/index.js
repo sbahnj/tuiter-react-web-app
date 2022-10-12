@@ -3,8 +3,13 @@ const NavigationSidebar = () => {
    <div class="list-group">
      <a class="list-group-item" href="/">
        <i class="fab fa-twitter"></i></a>
+       
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
+       <i class="fab fa-twitter"></i></a>
+        
+        
+            
    </div>
    <div class="d-grid mt-2">
      <a href="tweet.html"
