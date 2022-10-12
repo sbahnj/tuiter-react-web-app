@@ -230,6 +230,20 @@ ul.append(newLineItem);
 ul.append(anotherLineItem);
 
 
+const removeLi =$("#remove-this");
+const emptyUl = $("#empty-this");
+removeLi.remove();
+emptyUl.empty();
 
+const changeThisText =
+    $("#change-this-text");
+const changeThisHtml =
+    $("#change-this-html");
+changeThisText.html('New text');
+changeThisHtml.html(`
+   <li>Line item A</li>
+   <li>Line item B</li>
+   <li>Line item C</li>
+`);
 
 
