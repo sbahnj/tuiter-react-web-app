@@ -187,6 +187,9 @@ console.log(greeting2)
 const init = () => {
     console.log('Hello world from jQuery');
     /* do the rest of the lab work here */
+
+
+
 }
 $(init);
 
@@ -215,5 +218,18 @@ addClass1Example.addClass('class-1');
 
 const removeClass1Example = $("#remove-class-1");
 removeClass1Example.removeClass('class-2');
+
+const showMe = $("#show-me");
+showMe.show();
+
+const newLineItem = $("<li>Line item 1</li>");
+const anotherLineItem = $("<li>Line item 2</li>");
+
+const ul = $("#append-new-elements");
+ul.append(newLineItem);
+ul.append(anotherLineItem);
+
+
+
 
 
