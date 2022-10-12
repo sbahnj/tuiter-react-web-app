@@ -2,9 +2,11 @@
     $('#wd-explore').append(`
        <h2>Explore</h2>
    `);
-}*/
+}
 
-$(exploreComponent);
+$(exploreComponent); */
+
+import NavigationSidebar from "./NavigationSidebar/index.js";
 
 function exploreComponent() {
     $('#wd-explore').append(`
