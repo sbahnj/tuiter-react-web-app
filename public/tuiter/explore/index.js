@@ -7,6 +7,7 @@
 $(exploreComponent); */
 
 import NavigationSidebar from "../NavigationSidebar/index.js";
+import Who from "../WhoToFollowList/index.js"
 
 function exploreComponent() {
     $('#wd-explore').append(`
