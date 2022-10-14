@@ -1,15 +1,10 @@
-import WhoToFollowListItem from "./WhoToFollowListItem";
 
-import who from "./who.js"
 
-const WhoToFollowList = () => {
+
+const WhoToFollowList = (whos) => {
     return(`
    <ul>
-         ${
-        who.map(who => {
-            return(WhoToFollowListItem(who));
-        }).join('')
-    }
+         ${whos.userName}
       </ul>
  `);
 }
