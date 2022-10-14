@@ -4,10 +4,13 @@ const NavigationSidebar = (active) => {
     let explore_remote_url = "https://a5--legendary-brigadeiros-f56fd7.netlify.app/tuiter/explore/index.html"
     let explore_local_url = "http://localhost:63342/tuiter-react-web-app/public/tuiter/explore/index.html?_ijt=eb5f7ogoo80ovkqrc4o8d5ids5"
 
+    let on_explore_screen = false
 
-    if (current_url === explore_remote_url || current_url === explore_local_url )   {
+
+    if (current_url === current_url || current_url === current_url )   {
 
         console.log("on Explore Screen")
+        on_explore_screen = true
 
     }
 
@@ -18,10 +21,10 @@ const NavigationSidebar = (active) => {
        
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-       <a class="list-group-item" href="/">
+       <a class="list-group-item" href="../HomeScreen/index.html">
        <i class="fab fa-home"></i>Home</a>
         
-        <a class="list-group-item" href="/">
+        <a class="list-group-item" href="../explore/index.html">
        <i class="fab fa-hashtag"></i>Explore</a>
         
         <a class="list-group-item" href="/">
@@ -50,6 +53,7 @@ const NavigationSidebar = (active) => {
         Tweet</a>
    </div>
  `);
+
 }
 export default NavigationSidebar;
 
