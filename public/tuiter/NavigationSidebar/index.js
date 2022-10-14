@@ -1,4 +1,14 @@
 const NavigationSidebar = (active) => {
+
+    let current_url = "HomeScreen"
+
+
+    if ("HomeScreen" === current_url) {
+
+        console.log("on Home Screen")
+
+    }
+
     return(`
    <div class="list-group">
      <a class="list-group-item" href="/">
