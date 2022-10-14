@@ -1,16 +1,17 @@
-import whos from "who";
 import WhoToFollowListItem from "./WhoToFollowListItem";
 
-const WhoList = () => {
+import who from "./who.js"
+
+const WhoToFollowList = () => {
     return(`
-      <ul>
+   <ul>
          ${
-        whos.map(who => {
+        who.map(who => {
             return(WhoToFollowListItem(who));
         }).join('')
     }
       </ul>
-   `);
+ `);
 }
+export default WhoToFollowList;
 
-export default WhoList;

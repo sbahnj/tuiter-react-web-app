@@ -1,10 +1,10 @@
-const TodoItem = (who) => {
+const WhoToFollowListItem = (who) => {
     return(`
     <li>
       
       ${who.userName}
-     
+      
     </li>`
     );
 }
-export default TodoItem;
+export default WhoToFollowListItem;
