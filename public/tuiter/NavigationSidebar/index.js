@@ -1,11 +1,13 @@
 const NavigationSidebar = (active) => {
 
-    let current_url = "HomeScreen"
+    let current_url = window.location.href
+    let explore_remote_url = "https://a5--legendary-brigadeiros-f56fd7.netlify.app/tuiter/explore/index.html"
+    let explore_local_url = "http://localhost:63342/tuiter-react-web-app/public/tuiter/explore/index.html?_ijt=eb5f7ogoo80ovkqrc4o8d5ids5"
 
 
-    if ("HomeScreen" === current_url) {
+    if (current_url === explore_remote_url || current_url === explore_local_url )   {
 
-        console.log("on Home Screen")
+        console.log("on Explore Screen")
 
     }
 
