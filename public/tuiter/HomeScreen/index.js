@@ -1,5 +1,6 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
 import PostSummaryList from "../PostSummaryList/PostSummaryList.js";
+import FullPostList from "../PostList/FullPostList.js";
 
 
 
@@ -16,7 +17,7 @@ function homeComponent() {
      ${NavigationSidebar()}
    </div>
    <div class="col-10 col-lg-7 col-xl-6 bg-black">
-    <h3>PostListComponent</h3>
+    
     
     <!-- image with overlaid text -->
            <div class="wd-container" >
@@ -25,7 +26,11 @@ function homeComponent() {
                     <div class="wd-bottom-left"> SpaceX's Starship </div>
                 </div>
     
-    post list
+    
+    
+    ${FullPostList()}
+    
+    
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
     
