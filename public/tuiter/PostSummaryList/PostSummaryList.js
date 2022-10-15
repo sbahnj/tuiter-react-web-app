@@ -7,13 +7,13 @@ import posts from "./posts.js";
 
 const PostSummaryList = () => {
     return(`
-      <ul>
+      <div class="list-group">
          ${
         posts.map(post => {
             return(PostSummaryItem(post));
         }).join('')
     }
-      </ul>
+      </div>
    `);
 }
 
