@@ -1,4 +1,9 @@
+
+
 const FullPostItem = (fullpost) => {
+
+
+
     return(`
     <ul>
       
@@ -13,7 +18,10 @@ const FullPostItem = (fullpost) => {
       ${fullpost.title}
       
     
-    </ul>`
+    </ul>, 
+    
+    <i class="fa-light fa-comment"></i>`
+
 
 
     );
