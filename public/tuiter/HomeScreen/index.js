@@ -19,12 +19,7 @@ function homeComponent() {
    <div class="col-10 col-lg-7 col-xl-6 bg-black">
     
     
-    <!-- image with overlaid text -->
-           <div class="wd-container" >
-
-                    <img src="spaceX.jpeg" style="width: 100%">
-                    <div class="wd-bottom-left"> SpaceX's Starship </div>
-                </div>
+    
     
     
     

@@ -1,4 +1,4 @@
-const FullPostItem = (fullpost) => {
+const FullPostImage = (fullpost) => {
     return(`
     <li>
       
@@ -14,4 +14,4 @@ const FullPostItem = (fullpost) => {
 
     );
 }
-export default FullPostItem;
+export default FullPostImage;
