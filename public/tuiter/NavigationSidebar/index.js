@@ -22,28 +22,28 @@ const NavigationSidebar = (active) => {
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
        <a class="list-group-item" href="../HomeScreen/index.html">
-       <i class="fab fa-home"></i>Home</a>
+       <i class="fa-solid fa-house"></i>Home </a>
         
         <a class="list-group-item" href="../explore/index.html">
        <i class="fab fa-hashtag"></i>Explore</a>
         
-        <a class="list-group-item" href="/">
-       <i class="fab fa-bell"></i>Notifications</a>
+        <a class="list-group-item" href="../notifications.html">
+       <i class="fa-solid fa-bell"></i>Notifications</a>
             
-            <a class="list-group-item" href="/">
-       <i class="fab fa-envelope"></i>Messages</a>
+            <a class="list-group-item" href="../messages.html">
+       <i class="fa-solid fa-envelope"></i></i>Messages</a>
        
-       <a class="list-group-item" href="/">
-       <i class="fab fa-bookmark"></i>Bookmarks</a>
+       <a class="list-group-item" href="../bookmarks/index.html">
+       <i class="fa-solid fa-bookmark"></i>Bookmarks</a>
        
-       <a class="list-group-item" href="/">
-       <i class="fab fa-list"></i>Lists</a>
+       <a class="list-group-item" href="../lists.html">
+       <i class="fa-solid fa-list"></i>Lists</a>
        
-       <a class="list-group-item" href="/">
-       <i class="fab fa-user"></i>Profile</a>
+       <a class="list-group-item" href="../profile.html">
+       <i class="fa-solid fa-user"></i>Profile</a>
        
-       <a class="list-group-item" href="/">
-       <i class="fab fa-circle"></i>More</a>
+       <a class="list-group-item" href="../more.html">
+       <i class="fa-solid fa-circle-dot"></i>More</a>
             
             
    </div>
