@@ -5,14 +5,14 @@ export default exploreItems = [
         userName: 'ReactJS',
         time: '2h',
         title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
-        image: '../../images/react-blue.png'
+        image: '../explore/react_image.png'
     },
     {
         topic: '',
         userName: 'JavaScript',
         time: '1 day',
         title: 'JavaScript is programming language that can run on browsers as well as desktops',
-        image: '../../images/js.png',
+        image: '../explore/javascript_image.webp',
         tweets: '123K',
     },
     {
@@ -20,7 +20,7 @@ export default exploreItems = [
         userName: '',
         title: 'jQuery',
         time: 'last week',
-        image: '../../images/jquery.png',
+        image: '../explore/jquery_image.png',
         tweets: '122K',
     },
     {
@@ -28,6 +28,6 @@ export default exploreItems = [
         userName: 'NodeJS',
         title: '',
         time: 'last month',
-        image: '../../images/node.png',
+        image: '../explore/node_image.png',
         tweets: '120K',
     },];
