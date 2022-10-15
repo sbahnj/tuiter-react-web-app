@@ -1,15 +1,19 @@
 const FullPostItem = (fullpost) => {
     return(`
-    <li>
+    <ul>
       
       ${fullpost.topic}
       ${fullpost.userName}
       ${fullpost.time}
-      ${fullpost.image}
+      
+      <li><img src=  ${fullpost.image} ></li>
+      
+      
+      
       ${fullpost.title}
       
     
-    </li>`
+    </ul>`
 
 
     );
