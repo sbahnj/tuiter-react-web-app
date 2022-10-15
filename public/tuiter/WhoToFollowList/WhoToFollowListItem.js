@@ -1,12 +1,14 @@
 const WhoToFollowListItem = (who) => {
     return(`
-    <li>
+
+
+    <ul>
+        <li><img src=  ${who.avatarIcon} style="width:50px;height:50px;" ></li>
+        <li>${who.userName}</li>
+        <li>@${who.handle}</li>
+    
       
-      ${who.avatarIcon}
-      ${who.userName}
-      ${who.handle}
-      
-    </li>`
+    </ul>`
     );
 }
 export default WhoToFollowListItem;
