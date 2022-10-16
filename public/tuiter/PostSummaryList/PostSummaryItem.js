@@ -2,7 +2,7 @@ const PostSummaryItem = (post) => {
 
     let image_src = post.image
 
-    console.log(image_src)
+
 
     return(`
     <ul>
