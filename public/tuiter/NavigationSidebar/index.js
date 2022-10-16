@@ -1,6 +1,7 @@
 let active = window.location.href
 let explore_search = active.search("explore")
 let home_search = active.search("HomeScreen")
+let home_search_remote = active.search("homescreen")
 
 console.log("Explore result:")
 console.log(explore_search)
@@ -67,7 +68,7 @@ const NavigationSidebar = (active) => {
 
         }
 
-        else if (home_search !== -1) return (`
+        else if (home_search !== -1 || home_search_remote !== -1) return (`
         
         
         <div class="list-group">
