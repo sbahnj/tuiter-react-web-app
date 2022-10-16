@@ -18,9 +18,14 @@ const FullPostItem = (fullpost) => {
       ${fullpost.title}
       
     
-    </ul>, 
+    </ul> 
     
-    <i class="fa-light fa-comment"></i>`
+    <div class="wd-icon-row">
+    
+    <i class="fa-regular fa-comment"></i> <i class="fa-solid fa-retweet"></i> <i class="fa-regular fa-heart"></i> <i class="fa-solid fa-download"></i> </div> `
+
+
+
 
 
 
