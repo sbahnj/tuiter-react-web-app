@@ -9,10 +9,11 @@ const PostSummaryItem = (post) => {
       
       <li>${post.topic}</li>
       <li>${post.userName} ${post.time}</li>
-      <li>${post.title}</li>
+      <li>${post.title}  </li>
+      <li><div class="wd-suggested-posts-image"> <img src=  ${post.image}> </div></li>
       
       
-      <img src=  ${post.image} >
+      
       
       
     

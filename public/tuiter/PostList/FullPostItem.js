@@ -11,7 +11,7 @@ const FullPostItem = (fullpost) => {
       ${fullpost.userName}
       ${fullpost.time}
       
-      <li><img src=  ${fullpost.image} ></li>
+      <li> <div class="wd-suggested-posts-image"> <img src=  ${fullpost.image}  >  </div></li>
       
       
       
