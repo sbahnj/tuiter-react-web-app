@@ -8,7 +8,7 @@ const FullPostItem = (fullpost) => {
     <ul style="list-style: none">
       
       ${fullpost.topic}
-      ${fullpost.userName}
+      <div class="wd-suggested-posts-heading">${fullpost.userName}</div>
       ${fullpost.time}
       
       <li> <div class="wd-home-image"> <img src=  ${fullpost.image}  width="90%">  </div></li>
@@ -22,7 +22,7 @@ const FullPostItem = (fullpost) => {
     
     <div class="wd-icon-row">
     
-    <i class="fa-regular fa-comment"></i>  <i class="fa-solid fa-retweet"></i> <i class="fa-regular fa-heart"></i> <i class="fa-solid fa-download"></i> </div>`
+    <i class="fa-regular fa-comment"></i> &emsp; &emsp; &emsp; &emsp; &emsp;<i class="fa-solid fa-retweet"></i> &emsp; &emsp; &emsp; &emsp; &emsp; <i class="fa-regular fa-heart"></i>&emsp; &emsp; &emsp; &emsp; &emsp; <i class="fa-solid fa-download"></i> </div>`
 
 
 

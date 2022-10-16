@@ -18,7 +18,7 @@ export default TodoList;*/
 
 const WhoToFollowList = () => {
     return(`
-      <ul>
+      <ul style="list-style: none">
          ${
         whos.map(who => {
             return(WhoToFollowListItem(who));

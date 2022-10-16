@@ -2,7 +2,7 @@ const WhoToFollowListItem = (who) => {
     return(`
 
 
-    <ul>
+    <ul style="list-style: none">
         <li><img src=  ${who.avatarIcon} style="width:50px;height:50px;" ></li>
         <li>${who.userName}</li>
         <li>@${who.handle}</li>
