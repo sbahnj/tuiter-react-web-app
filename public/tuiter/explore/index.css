@@ -211,6 +211,9 @@
 .wd-follow-button{
 
     float: right;
+    background-color: dodgerblue;
+    border-radius: 20%;
+    size: 50px;
 
 }
 

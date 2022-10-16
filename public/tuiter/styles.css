@@ -23,5 +23,10 @@ color: dodgerblue;
 .wd-icon-row{
 
     float: left;
+    padding-right: 15px;
+}
+
+.wd-home-image{
+    size: 10px;
 }
 
