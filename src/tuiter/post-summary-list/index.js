@@ -1,5 +1,5 @@
 import React from "react";
-import postsArray from './posts.json';
+import postsArray from './post.json';
 import PostSummaryItem
     from "./post-summary-item";
 
@@ -9,7 +9,8 @@ const PostSummaryList = () => {
             {
                 postsArray.map(post =>
                     <PostSummaryItem
-                        key={who._id} post={post}/> )
+                        key={post._id}
+                        post={post}/> )
             }
         </ul>
     );
