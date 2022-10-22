@@ -1,11 +1,11 @@
-import Nav from "../nav";
+/*import Nav from "../nav";*/
 import NavigationSidebar
     from "./navigation-sidebar";
-import WhoToFollowListItem
+/*import WhoToFollowListItem
     from "./who-to-follow-list/who-to-follow-list-item";
 import WhoToFollowList from "./who-to-follow-list";
 import PostSummaryItem from "./post-summary-list/post-summary-item"
-import PostSummaryList from "./post-summary-list"
+import PostSummaryList from "./post-summary-list"*/
 import ExploreComponent from "./explore"
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
