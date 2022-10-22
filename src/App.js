@@ -4,7 +4,19 @@ import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
+
+
 function App() {
+    return (
+        <h1>Hello World!</h1>
+    );
+}
+export default App;
+
+
+
+
+/*function App() {
     return (
         <BrowserRouter>
             <div className="container">
@@ -25,7 +37,7 @@ function App() {
 
     );
 }
-export default App;
+export default App;*/
 
 
 
