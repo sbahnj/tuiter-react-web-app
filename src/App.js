@@ -15,6 +15,7 @@ function App() {
                            element={<HelloWorld/>}/>
                     <Route index
                            element={<Tuiter/>}/>
+                    <Route path="/tuiter/*" element={<Tuiter/>}/>
                 </Routes>
             </div>
         </BrowserRouter>

@@ -1,14 +1,13 @@
 import React from "react";
 import postsArray from './post.json';
-import PostSummaryItem
-    from "./post-summary-item";
+import FullPostItem from "./full-post-item";
 
 const FullPostList = () => {
     return(
         <ul className="list-group">
             {
                 postsArray.map(post =>
-                    <PostSummaryItem
+                    <FullPostItem
                         key={post._id}
                         post={post}/> )
             }

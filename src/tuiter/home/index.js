@@ -1,6 +1,6 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
-import "./index.css";
+import "../../index.css";
 
 import FullPostList from "../full-post-list";
 import NavigationSidebar from "../navigation-sidebar"
@@ -12,15 +12,16 @@ const HomeComponent = () => {
             <div className="row mt-2">
                 <div className="col-2 col-md-2 col-lg-1 col-xl-2 bg-black">
 
-
-
-
                     <NavigationSidebar/>
+
+
+
+
                 </div>
                 <div className="col-10 col-lg-7 col-xl-6 bg-black">
 
 
-                    <FullPostList/>
+
 
 
                 </div>
