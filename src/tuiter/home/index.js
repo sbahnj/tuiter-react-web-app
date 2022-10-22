@@ -2,8 +2,7 @@ import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "../../index.css";
 
-/*import FullPostList from "../full-post-list";
-import NavigationSidebar from "../navigation-sidebar"*/
+
 
 
 const HomeComponent = () => {
