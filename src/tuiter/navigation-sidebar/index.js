@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = (
     {
@@ -11,7 +12,9 @@ const NavigationSidebar = (
 
             <div className="list-group-item">Home</div>
 
-            <div className="list-group-item">Explore</div>
+            <div className="list-group-item">
+                <Link to="/tuiter/explore">Explore</Link>
+            </div>
 
             <div className="list-group-item">Notifications</div>
 

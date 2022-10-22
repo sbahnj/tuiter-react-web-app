@@ -1,6 +1,7 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "../../index.css";
+import FullPostList from "../full-post-list";
 
 
 
@@ -18,7 +19,7 @@ const HomeComponent = () => {
 
                 </div>
                 <div className="col-10 col-lg-7 col-xl-6 bg-black">
-                    center column
+                    <FullPostList/>
 
 
 
