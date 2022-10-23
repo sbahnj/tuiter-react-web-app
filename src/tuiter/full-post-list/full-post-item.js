@@ -21,6 +21,16 @@ const FullPostItem = (
                 <div className="col-2">
                     <img width={70} className="float-end rounded-3" src={`/images/${post.image}`} alt={"full post"}/>
                 </div>
+
+                <div className="wd-icon-row">
+
+                    <i className="fa-regular fa-comment"></i> &emsp; &emsp; &emsp; &emsp; &emsp;<i
+                    className="fa-solid fa-retweet"></i> &emsp; &emsp; &emsp; &emsp; &emsp; <i
+                    className="fa-regular fa-heart"></i>&emsp; &emsp; &emsp; &emsp; &emsp; <i
+                    className="fa-solid fa-download"></i>
+
+                </div>
+
             </div>
         </li>
     );

@@ -25,19 +25,20 @@ const ExploreComponent = () => {
             </div>
 
 
-            <ul className="nav nav-pills nav-fill mb-2">
+            <ul className="nav nav-pills  mb-2">
                 <li className="nav-item">
 
-                    <button className="btn btn-primary rounded-pill float-end">For You</button>
+                    <button className="btn btn-primary btn-square float-end">For You</button>
 
 
                 </li>
                 <li className="nav-item">
-                    Trending
+
+                    <button className="btn btn-outline-secondary btn-square float-end">Trending</button>
 
                 </li>
                 <li className="nav-item">
-                    News
+                    <button className="btn btn-outline-secondary btn-square float-end">News</button>
 
                 </li>
             </ul>
