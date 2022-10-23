@@ -2,6 +2,7 @@ import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
 import WhoToFollowList from "../who-to-follow-list"
+import ExploreImage from "../explore image";
 
 
 
@@ -24,9 +25,11 @@ const ExploreComponent = () => {
             </div>
 
 
-            <ul className="nav nav-pills mb-2">
+            <ul className="nav nav-pills nav-fill mb-2">
                 <li className="nav-item">
-                    For You
+
+                    <button className="btn btn-primary rounded-pill float-end">For You</button>
+
 
                 </li>
                 <li className="nav-item">
@@ -47,10 +50,7 @@ const ExploreComponent = () => {
 
 
 
-
-
-
-
+                <ExploreImage/>
                 <PostSummaryList/>
 
             </div>

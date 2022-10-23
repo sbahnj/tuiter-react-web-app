@@ -17,6 +17,8 @@ const HomeComponent = () => {
 
 
 
+
+
                 </div>
 
                 <div className="col-10 col-lg-7 col-xl-6 ">
