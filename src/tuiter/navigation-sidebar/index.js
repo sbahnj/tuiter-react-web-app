@@ -10,7 +10,9 @@ const NavigationSidebar = (
         <div className="list-group">
             <div className="list-group-item">Tuiter</div>
 
-            <div className="list-group-item">Home</div>
+            <div className="list-group-item">
+                <Link to="/tuiter/home">Home</Link>
+            </div>
 
             <div className="list-group-item">
                 <Link to="/tuiter/explore">Explore</Link>
