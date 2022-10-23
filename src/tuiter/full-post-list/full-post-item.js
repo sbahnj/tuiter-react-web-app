@@ -13,23 +13,21 @@ const FullPostItem = (
     return(
         <li className="list-group-item">
             <div className="row">
+
+                <div className="col-2">
+                    <img className="rounded-circle" height={48} src={`/images/${post.image}`} alt={"who to follow"}/>
+                </div>
+
                 <div className="col-10">
                     <div>{post.userName} . {post.time}</div>
                     <div className="fw-bolder">{post.topic}</div>
                     <div>{post.title}</div>
                 </div>
-                <div className="col-2">
-                    <img width={70} className="float-end rounded-3" src={`/images/${post.image}`} alt={"full post"}/>
-                </div>
 
-                <div className="wd-icon-row">
 
-                    <i className="fa-regular fa-comment"></i> &emsp; &emsp; &emsp; &emsp; &emsp;<i
-                    className="fa-solid fa-retweet"></i> &emsp; &emsp; &emsp; &emsp; &emsp; <i
-                    className="fa-regular fa-heart"></i>&emsp; &emsp; &emsp; &emsp; &emsp; <i
-                    className="fa-solid fa-download"></i>
+                &#x1f4ac;&emsp;&emsp;&#8635;&emsp;&emsp;&#9825;&emsp;&emsp;&#10514;
 
-                </div>
+
 
             </div>
         </li>
