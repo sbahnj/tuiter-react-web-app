@@ -1,9 +1,15 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
+import WhoToFollowList from "../who-to-follow-list"
+import ExploreImageItem from "../explore image/explore-image-item";
+
+
+
 const ExploreComponent = () => {
     return(
         <>
+            <div className="row mt-2">
             <div className="row">
                 <div className="col-11 position-relative">
                     <input placeholder="Search Tuiter"
@@ -16,6 +22,8 @@ const ExploreComponent = () => {
                        bi-gear-fill fs-2 position-relative"></i>
                 </div>
             </div>
+
+
             <ul className="nav nav-pills mb-2">
                 <li className="nav-item">
                     For You
@@ -30,12 +38,32 @@ const ExploreComponent = () => {
 
                 </li>
             </ul>
-            <div className="position-relative mb-2">
-                <img src="spaceX.jpeg" className="w-100" alt={"starship"}/>
-                <h1 className="position-absolute wd-nudge-up text-white">
-                    SpaceX Starship</h1>
+
+
+
+
+
+            <div className="col-10 col-lg-7 col-xl-6 ">
+
+
+
+
+
+
+
+                <PostSummaryList/>
+
             </div>
-            <PostSummaryList/>
+
+
+
+            <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
+
+                <WhoToFollowList/>
+
+
+            </div>
+        </div>
         </>
     );
 };
