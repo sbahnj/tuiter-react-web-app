@@ -6,8 +6,13 @@ function Labs() {
     return (
         <div>
             <Nav/>
-            <Assignment6/>
-            <Todos/>
+            <Routes>
+                <Route index
+                       element={<Assignment6/>}/>
+                <Route path="a7"
+                       element={<Assignment7/>}/>
+            </Routes>
+
         </div>
     );
 }
