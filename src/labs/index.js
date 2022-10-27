@@ -9,7 +9,7 @@ function Labs() {
             <Routes>
                 <Route index
                        element={<Assignment6/>}/>
-                <Route path="a7"
+                <Route path="labs/a7"
                        element={<Assignment7/>}/>
             </Routes>
 
