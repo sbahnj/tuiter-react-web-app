@@ -1,22 +1,15 @@
 import React from "react";
-import HelloReduxExampleComponent
-    from "../hello-redux-example-component";
-import hello from "../../redux-examples/reducers/hello";
-import {createStore} from "redux";
-import {Provider} from "react-redux";
-const store = createStore(hello);
+import ReduxExamples from "./redux-examples";
 
-
-const ReduxExamples = () => {
+const Assignment7 = () => {
     return(
-        <Provider store={store}>
-            <div>
-                <h2>Redux Examples</h2>
-                <HelloReduxExampleComponent/>
-            </div>
-        </Provider>
+        <>
+            <h1>Assignment 7</h1>
+            <ReduxExamples/>
+        </>
     );
 };
-export default ReduxExamples;
+export default Assignment7;
+
 
 

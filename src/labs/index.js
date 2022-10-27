@@ -1,20 +1,15 @@
-import Assignment6 from "./a6";
-import Nav from "../nav";
-import Todos from "../../public/labs/a5/todos/todos";
+import React from "react";
+import ReduxExamples from "./redux-examples";
 
-function Labs() {
-    return (
-        <div>
-            <Nav/>
-            <Routes>
-                <Route index
-                       element={<Assignment6/>}/>
-                <Route path="labs/a7"
-                       element={<Assignment7/>}/>
-            </Routes>
-
-        </div>
+const Assignment7 = () => {
+    return(
+        <>
+            <h1>Assignment 7</h1>
+            <ReduxExamples/>
+        </>
     );
-}
-export default Labs;
+};
+export default Assignment7;
+
+
 
