@@ -4,7 +4,7 @@ import PostSummaryItem
     from "./post-summary-item";
 
 
-const PostSummaryList = () => {
+const TuitsList = () => {
 
     const postsArray = useSelector(state => state.tuits)
 
@@ -26,5 +26,5 @@ const PostSummaryList = () => {
         </ul>
     );
 };
-export default PostSummaryList;
+export default TuitsList;
 
