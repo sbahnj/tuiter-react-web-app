@@ -3,6 +3,8 @@ import "../../index.css";
 import FullPostList from "../full-post-list";
 import HomeImage from "../home image";
 import WhoToFollowList from "../who-to-follow-list"
+import WhatsHappening from "./whats-happening";
+import TuitsList from "../tuits/TuitsList";
 
 
 
@@ -15,8 +17,9 @@ const HomeComponent = () => {
 
                 <div className="col-10 col-lg-7 col-xl-6 ">
 
-                    <HomeImage/>
-                    <FullPostList/>
+
+                    <WhatsHappening/>
+                    <TuitsList/>
 
                 </div>
 

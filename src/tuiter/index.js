@@ -39,7 +39,7 @@ function Tuiter() {
              style={{"position": "relative"}}>
 
             <Routes>
-                <Route path="home"    element={<TuitsList/>}/>
+                <Route path="home"    element={<HomeComponent/>}/>
                 <Route path="explore" element={<ExploreComponent/>}/>
             </Routes>
 
@@ -47,11 +47,7 @@ function Tuiter() {
 
         </div>
 
-            <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
 
-                <WhoToFollowList/>
-
-            </div>
 
 
 
