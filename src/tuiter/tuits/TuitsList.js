@@ -2,19 +2,22 @@ import React from "react";
 import {useSelector} from "react-redux";
 import TuitItem
     from "./TuitItem";
+import StatItem from "./statItem";
 
 
 const TuitsList = () => {
 
     const tuitsArray = useSelector(state => state.tuits)
+    const statsArray = useSelector(state => state.tuitStats)
 
 
     return(
 
 
 
-        <ul className="list-group">
+        <ol className="list-group">
 
+            <li>
 
 
             {
@@ -22,8 +25,20 @@ const TuitsList = () => {
                     <TuitItem
                         key={tuits._id}
                         post={tuits}/> )
+
+
             }
-        </ul>
+
+
+            </li>
+
+
+
+        </ol>
+
+
+
+
     );
 };
 export default TuitsList;

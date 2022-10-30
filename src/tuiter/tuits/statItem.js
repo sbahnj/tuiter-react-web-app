@@ -1,5 +1,5 @@
 import React from "react";
-const TuitStats = (
+const StatItem = (
     {
         tuit = {     "_id": 234,
             "topic": "Space",
@@ -27,5 +27,4 @@ const TuitStats = (
         </li>
     );
 };
-export default TuitStats;
-
+export default StatItem;

@@ -1,4 +1,5 @@
 import React from "react";
+import StatItem from "./statItem";
 const TuitItem = (
     {
         tuit = {     "_id": 234,
@@ -25,6 +26,7 @@ const TuitItem = (
                     <div className="fw-bold">{tuit.userName}</div>
                     <div>@{tuit.handle}</div>
                     <div>@{tuit.tuit}</div>
+                    <StatItem/>
                 </div>
 
             </div>
