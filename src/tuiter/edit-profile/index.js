@@ -3,7 +3,7 @@ import ProfileItem from "./profileItem";
 import React from "react";
 
 
-const ProfileComponent = () => {
+const EditProfile = () => {
     return(
         <>
             <div className="row mt-2">
@@ -29,5 +29,5 @@ const ProfileComponent = () => {
         </>
     );
 };
-export default ProfileComponent;
+export default EditProfile;
 
