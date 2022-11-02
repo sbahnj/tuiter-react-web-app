@@ -5,6 +5,9 @@ import HomeImage from "../home image";
 import WhoToFollowList from "../who-to-follow-list"
 
 import TuitsList from "../tuits/TuitsList";
+import {Link} from "react-router-dom";
+import Todos from "../profile";
+import NavigationSidebar from "../navigation-sidebar";
 
 
 
@@ -15,13 +18,20 @@ const ProfileComponent2 = () => {
             <div className="row mt-2">
 
 
+
+
                 <div className="col-10 col-lg-7 col-xl-6 ">
 
                     Profile
 
+                    <Link to="/tuiter/profile">
+                    <button className="btn btn-primary rounded-pill float-end">Edit Profile</button>
+                    </Link>
 
 
-                    <TuitsList/>
+                    <Todos/>
+
+
 
                 </div>
 

@@ -39,7 +39,7 @@ const Todos = () => {
 
     return(
         <>
-            <h3>Todos</h3>
+
             <ul className="list-group">
 
 

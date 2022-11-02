@@ -16,6 +16,7 @@ import { configureStore }
 import {Provider} from "react-redux";
 import ProfileComponent from "./profile";
 import ProfileComponent2 from "./profile2";
+import ReduxExamples from "./profile";
 
 
 
@@ -44,8 +45,8 @@ function Tuiter() {
             <Routes>
                 <Route path="home"    element={<HomeComponent/>}/>
                 <Route path="explore" element={<ExploreComponent/>}/>
-                <Route path="profile" element={<ProfileComponent2/>}/>
-                <Route path="edit profile" element={<ProfileComponent/>}/>
+                <Route path="profile2" element={<ProfileComponent2/>}/>
+                <Route path="profile" element={<ReduxExamples/>}/>
             </Routes>
 
 
