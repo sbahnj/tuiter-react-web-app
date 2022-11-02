@@ -3,7 +3,7 @@ import {createSlice} from "@reduxjs/toolkit";
 const initialTodos = [
     {
         _id: "123",
-        do: "Accelerate the world's transition to sustainable energy",
+        firstName: "Sarah",
         done: false
     }
 
@@ -18,7 +18,7 @@ const todosSlice = createSlice({
         addTodo(state, action) {
             state.push({
                 _id: (new Date()).getTime(),
-                do: action.payload.do,
+                firstName: action.payload.firstName,
                 done: false
             });
         },

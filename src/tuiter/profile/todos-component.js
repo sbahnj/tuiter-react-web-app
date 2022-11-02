@@ -7,7 +7,7 @@ const Todos = () => {
     const todos
         = useSelector(state => state.todos);
 
-    const [todo, setTodo] = useState({do: ''});
+    const [todo, setTodo] = useState({firstName: ''});
 
     const dispatch = useDispatch();
 
@@ -32,7 +32,7 @@ const Todos = () => {
     const todoChangeHandler = (event) => {
         const doValue = event.target.value;
         const newTodo = {
-            do: doValue
+            firstName: doValue
         };
         setTodo(newTodo);
     }
@@ -54,7 +54,7 @@ const Todos = () => {
 
                     <input
                         onChange={todoChangeHandler}
-                        value={todo.do}
+                        value={todo.firstName}
                         className="form-control w-75"/>
                 </li>
 
@@ -76,7 +76,7 @@ const Todos = () => {
                                    className="me-2"/>
 
 
-                            {todo.do}
+                            {todo.firstName}
                         </li>
                     )
                 }
