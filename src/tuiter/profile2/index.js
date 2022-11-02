@@ -8,6 +8,7 @@ import TuitsList from "../tuits/TuitsList";
 import {Link} from "react-router-dom";
 import Todos from "../profile";
 import NavigationSidebar from "../navigation-sidebar";
+import CurrentProfile from "./current-profile";
 
 
 
@@ -29,8 +30,7 @@ const ProfileComponent2 = () => {
                     </Link>
 
 
-                    <Todos/>
-
+                    <CurrentProfile/>
 
 
                 </div>

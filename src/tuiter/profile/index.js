@@ -18,9 +18,7 @@ const ReduxExamples = () => {
             <div>
 
 
-                <Link to="/tuiter/profile2">
-                    <button className="btn btn-primary rounded-pill float-end">Save</button>
-                </Link>
+
 
                 <Todos/>
 

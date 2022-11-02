@@ -2,6 +2,10 @@ import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux"
 import {addTodo, deleteTodo, todoDoneToggle}
     from "./profile-reducer";
+import todoSlice from "./profile-reducer";
+import {Link} from "react-router-dom";
+
+
 
 const Todos = () => {
     const todos
@@ -26,6 +30,7 @@ const Todos = () => {
 
     const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
+
     }
 
 
@@ -37,22 +42,25 @@ const Todos = () => {
         setTodo(newTodo);
     }
 
+
+
     return(
         <>
 
             <ul className="list-group">
 
 
-                <li className="list-group-item">
+                <li className="list-group-item" >
 
-
+                    <Link to="/tuiter/profile2">
                     <button onClick={createTodoClickHandler}
                             className="btn btn-primary w-25
                           float-end">
-                        Create</button>
+                        Save</button>
+                    </Link>
 
 
-                    <input
+                    <input placeholder="Sarah"
                         onChange={todoChangeHandler}
                         value={todo.firstName}
                         className="form-control w-75"/>
@@ -60,20 +68,8 @@ const Todos = () => {
 
                 {
                     todos.map((todo, index) =>
-                        <li className="list-group-item">
+                        <li className="list-group-item" >
 
-                            <button onClick={() =>
-                                deleteTodoClickHandler(index)}
-                                    className="btn btn-danger
-                      float-end ms-2">
-                                Delete
-                            </button>
-
-                            <input type="checkbox"
-                                   checked={todo.done}
-                                   onChange={() =>
-                                       toggleTodoDone(todo)}
-                                   className="me-2"/>
 
 
                             {todo.firstName}
@@ -85,6 +81,8 @@ const Todos = () => {
     );
 };
 export default Todos;
+
+
 
 
 
