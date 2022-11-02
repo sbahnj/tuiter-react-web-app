@@ -1,33 +1,28 @@
-import WhoToFollowList from "../who-to-follow-list";
-import ProfileItem from "./profileItem";
+
 import React from "react";
+import HelloReduxExampleComponent
+    from "./hello-redux-example-component";
+import hello from "./hello";
+import todos from "./profile-reducer";
+import {Provider} from "react-redux";
+import {createStore} from "redux";
+import { configureStore }
+    from '@reduxjs/toolkit';
+import Todos from "./todos-component";
+const store = configureStore({
+    reducer: {hello, todos}
+});
 
-
-const ProfileComponent = () => {
+const ReduxExamples = () => {
     return(
-        <>
-            <div className="row mt-2">
-
-
-                <div className="col-10 col-lg-7 col-xl-6 ">
-
-
-
-
-                    <ProfileItem/>
-
-                </div>
-
-                <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
-
-                    <WhoToFollowList/>
-
-                </div>
-
-
+        <Provider store={store}>
+            <div>
+                <h2>Edit Profile</h2>
+                <Todos/>
+                <HelloReduxExampleComponent/>
             </div>
-        </>
+        </Provider>
     );
 };
-export default ProfileComponent;
+export default ReduxExamples;
 

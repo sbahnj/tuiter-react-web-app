@@ -1,9 +1,15 @@
-import WhoToFollowList from "../who-to-follow-list";
-import ProfileItem from "./profileItem";
 import React from "react";
+import "../../index.css";
+import FullPostList from "../full-post-list";
+import HomeImage from "../home image";
+import WhoToFollowList from "../who-to-follow-list"
+
+import TuitsList from "../tuits/TuitsList";
 
 
-const EditProfile = () => {
+
+
+const ProfileComponent2 = () => {
     return(
         <>
             <div className="row mt-2">
@@ -11,10 +17,11 @@ const EditProfile = () => {
 
                 <div className="col-10 col-lg-7 col-xl-6 ">
 
+                    Profile
 
 
 
-                    <ProfileItem/>
+                    <TuitsList/>
 
                 </div>
 
@@ -29,5 +36,5 @@ const EditProfile = () => {
         </>
     );
 };
-export default EditProfile;
+export default ProfileComponent2;
 
