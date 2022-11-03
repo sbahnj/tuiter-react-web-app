@@ -23,14 +23,14 @@ const ProfileComponent2 = () => {
 
                 <div className="col-10 col-lg-7 col-xl-6 ">
 
-                    Profile
 
                     <Link to="/tuiter/profile">
                     <button className="btn btn-primary rounded-pill float-end">Edit Profile</button>
                     </Link>
 
 
-                    <CurrentProfile/>
+                    This is the current profile
+                    <Todos/>
 
 
                 </div>

@@ -60,7 +60,7 @@ const Todos = () => {
                     </Link>
 
 
-                    <input placeholder="Sarah"
+                    <input placeholder={todo.firstName}
                         onChange={todoChangeHandler}
                         value={todo.firstName}
                         className="form-control w-75"/>
@@ -69,8 +69,6 @@ const Todos = () => {
                 {
                     todos.map((todo, index) =>
                         <li className="list-group-item" >
-
-
 
                             {todo.firstName}
                         </li>
