@@ -6,31 +6,28 @@ import WhoToFollowList from "../who-to-follow-list"
 
 import TuitsList from "../tuits/TuitsList";
 import {Link} from "react-router-dom";
-import Todos from "../profile";
-import NavigationSidebar from "../navigation-sidebar";
-import CurrentProfile from "./current-profile";
+import EditProfile from "./editProfile";
 
 
 
 
-const ProfileComponent2 = () => {
+const ProfileComponent = () => {
     return(
         <>
             <div className="row mt-2">
 
 
-
-
                 <div className="col-10 col-lg-7 col-xl-6 ">
 
 
-                    <Link to="/tuiter/profile">
-                    <button className="btn btn-primary rounded-pill float-end">Edit Profile</button>
-                    </Link>
+                    This is the main profile
 
+                    <div className="list-group-item">
+                        <Link to="/tuiter/editProfile">Edit Profile</Link>
+                    </div>
 
-                    This is the current profile
-                    <Todos/>
+                    <EditProfile/>
+
 
 
                 </div>
@@ -46,5 +43,5 @@ const ProfileComponent2 = () => {
         </>
     );
 };
-export default ProfileComponent2;
+export default ProfileComponent;
 

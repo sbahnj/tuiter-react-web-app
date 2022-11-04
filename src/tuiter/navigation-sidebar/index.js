@@ -27,7 +27,7 @@ const NavigationSidebar = (
             <div className="list-group-item">Lists</div>
 
             <div className="list-group-item">
-                <Link to="/tuiter/profile2">Profile</Link>
+                <Link to="/tuiter/profile">Profile</Link>
             </div>
 
             <div className="list-group-item">More</div>

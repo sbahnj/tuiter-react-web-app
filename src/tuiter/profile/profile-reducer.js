@@ -1,53 +1,44 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const initialTodos = [
+const initialProfile = [
     {
-        _id: "123",
-        firstName: "Sarah",
-        done: false
+        firstName: 'Jose', lastName: 'Annunziato', handle: '@jannunzi',
+        profilePicture: 'jose.png', 	bannerPicture: 'polyglot.png',
+        bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast.',
+        website: 'youtube.com/webdevtv',
+        location: 'Boston, MA',	dateOfBirth: '7/7/1968',	dateJoined: '4/2009',
+        followingCount: 340,	followersCount: 223
     }
 
 
 ];
 
-const todosSlice = createSlice({
-    name: 'todos',
-    initialState: initialTodos,
+const profileSlice = createSlice({
+    name: 'profile',
+    initialState: initialProfile,
 
     reducers: {
-
-
-        deleteTodo(state, action) {
-            const index = action.payload
-            state.splice(index, 1)
-        },
-
-        addTodo(state, action) {
+        addProfile(state, action) {
             state.push({
-                _id: (new Date()).getTime(),
-                firstName: action.payload.firstName,
-                done: false
+                firstName: action.payload.do,
+
             });
-            state.splice(0, 1)
         },
 
 
+        addFirstName(state, action) {
+            state.push({
+                firstName: action.payload.do,
 
-        todoDoneToggle(state, action) {
-            const todo = state.find((todo) =>
-                todo._id === action.payload._id)
-            todo.done = !todo.done
-        }
-
-
+            });
+        },
 
     }
 
 
+
 });
-export const {addTodo, deleteTodo, todoDoneToggle} = todosSlice.actions
-export default todosSlice.reducer
 
-
-
+export const {addProfile, addFirstName} = profileSlice.actions
+export default profileSlice.reducer
 
