@@ -4,23 +4,27 @@ import NavigationSidebar
 import ExploreComponent from "./explore"
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
+import ReduxExamples from "./profile";
+import ProfileComponent from "./profile/profile-component";
 
 import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import statsReducer from "./tuits/stats-reducer";
+import profileReducer from "./profile/reducers/profile-reducer";
 
 
 import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
-import ProfileComponent from "./profile/profileComponent";
-import EditProfile from "./profile/editProfile";
+
+
+
 
 
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, tuitStats: statsReducer}});
+    {reducer: {who: whoReducer, tuits: tuitsReducer, tuitStats: statsReducer, profile: profileReducer}});
 
 
 function Tuiter() {
@@ -44,8 +48,8 @@ function Tuiter() {
             <Routes>
                 <Route path="home"    element={<HomeComponent/>}/>
                 <Route path="explore" element={<ExploreComponent/>}/>
-                <Route path="profile" element={<ProfileComponent/>}/>
-                <Route path="editProfile" element={<EditProfile/>}/>
+                <Route path="profile" element={<ReduxExamples/>}/>
+
             </Routes>
 
 
