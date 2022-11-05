@@ -24,6 +24,7 @@ const todosSlice = createSlice({
                 do: action.payload.do,
                 done: false
             });
+            state.splice(0, 1)
         },
 
         deleteTodo(state, action) {

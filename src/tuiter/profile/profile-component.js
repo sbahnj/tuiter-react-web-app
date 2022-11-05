@@ -37,22 +37,38 @@ const ToDos = () => {
         setTodo(newTodo);
     }
 
+    function leaveEditMode() {
+
+        document.getElementById("editProfile button").style.display = "block"
+        document.getElementById("Save button").style.display = "none"
+        document.getElementById("Input line").style.display = "block"
+        console.log("leave edit mode found")
+
+    }
+
+    function SaveAndExit() {
+
+        createTodoClickHandler();
+        leaveEditMode();
+
+    }
+
     return(
         <>
-            <h3>Todos</h3>
+
             <ul className="list-group">
 
 
                 <li className="list-group-item">
 
 
-                    <button onClick={createTodoClickHandler}
+                    <button id="Save button" onClick={SaveAndExit}
                             className="btn btn-primary w-25
                           float-end">
-                        Create</button>
+                        Save</button>
 
 
-                    <input
+                    <input id = "Input line"
                         onChange={todoChangeHandler}
                         value={todo.do}
                         className="form-control w-75"/>
@@ -62,18 +78,9 @@ const ToDos = () => {
                     todos.map((todo, index) =>
                         <li className="list-group-item">
 
-                            <button onClick={() =>
-                                deleteTodoClickHandler(index)}
-                                    className="btn btn-danger
-                      float-end ms-2">
-                                Delete
-                            </button>
 
-                            <input type="checkbox"
-                                   checked={todo.done}
-                                   onChange={() =>
-                                       toggleTodoDone(todo)}
-                                   className="me-2"/>
+
+
 
 
                             {todo.do}
