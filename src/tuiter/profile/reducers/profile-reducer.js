@@ -2,15 +2,15 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const initialTodos = [
     {
-        _id: "123",
-        do: "Accelerate the world's transition to sustainable energy",
-        done: false
-    },
-    {
-        _id: "234",
-        do: "Reduce space transportation costs to become a spacefaring civilization",
-        done: false
-    },
+        firstName: 'Jose', lastName: 'Annunziato', handle: '@jannunzi',
+        profilePicture: 'jose.png', 	bannerPicture: 'polyglot.png',
+        do: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast.',
+        website: 'youtube.com/webdevtv',
+        location: 'Boston, MA',	dateOfBirth: '7/7/1968',	dateJoined: '4/2009',
+        followingCount: 340,	followersCount: 223
+    }
+
+
 ];
 
 const todosSlice = createSlice({

@@ -18,6 +18,8 @@ import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import EditProfile from "./profile/editProfile";
+import WhoToFollowList from "./who-to-follow-list";
+import React from "react";
 
 
 
@@ -58,6 +60,14 @@ function Tuiter() {
 
 
         </div>
+
+            <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
+
+                <WhoToFollowList/>
+
+            </div>
+
+
 
 
 

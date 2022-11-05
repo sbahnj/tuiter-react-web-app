@@ -42,6 +42,7 @@ const ToDos = () => {
         document.getElementById("editProfile button").style.display = "block"
         document.getElementById("Save button").style.display = "none"
         document.getElementById("Input line").style.display = "block"
+        document.getElementById("Profile heading").style.display = "block"
         console.log("leave edit mode found")
 
     }
