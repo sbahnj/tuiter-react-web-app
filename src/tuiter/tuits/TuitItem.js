@@ -2,6 +2,7 @@ import React from "react";
 import StatItem from "./statItem";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
+import WhoToFollowList from "../who-to-follow-list";
 
 
 const TuitItem = (
@@ -11,7 +12,7 @@ const TuitItem = (
             "userName": "SpaceX",
             "time": "2h",
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-            "image": "spacex.png",
+            "image": "/images/spaceX_logo.jpg",
             "liked": true,
             "replies": 123,
             "retuits": 432,
@@ -33,7 +34,7 @@ const TuitItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img className="rounded-circle" height={48} src={`/images/${tuit.avatarIcon}`} alt={"tuit"}/>
+                    <img className="rounded-circle" height={48} src={`/images/spaceX_logo.jpg`} alt={"tuit"}/>
                 </div>
                 <div className="col-8">
                     <i className="bi bi-x-lg float-end"
@@ -43,6 +44,8 @@ const TuitItem = (
                     <div>@{tuit.tuit}</div>
                     <StatItem/>
                 </div>
+
+
 
 
 

@@ -7,8 +7,8 @@ import {Provider} from "react-redux";
 
 import { configureStore }
     from '@reduxjs/toolkit';
-import {Link} from "react-router-dom";
-import WhoToFollowList from "../who-to-follow-list";
+
+
 
 
 const store = configureStore({
@@ -31,13 +31,16 @@ const ReduxExamples = () => {
     return(
         <Provider store={store}>
 
-            <img width={500} className=" rounded-3" src ="../../banner_grass.png" alt={"profile main"}/>
+            <i id={"close-x"} className="bi bi-x-lg float-end" ></i>
+
+            <img className="fa-rectangle-ad float-left" height={250} src={`/images/banner_grass.png`} alt={"who to follow"}/>
+            <img className="rounded-circle float-left" height={48} src={`/images/unicorn-clipart-6.jpg`} alt={"who to follow"}/>
             <div className="col-10 col-lg-7 col-xl-6">
 
 
 
 
-                <h2 id="Profile heading" >Profile</h2>
+                <h2 id={"Profile heading"} >Profile</h2>
 
 
                 <button id="editProfile button" onClick={gotoEditMode}
@@ -48,6 +51,16 @@ const ReduxExamples = () => {
                 <Todos/>
 
             </div>
+
+            <div className="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-grey">
+
+
+
+            </div>
+
+
+
+
 
 
 

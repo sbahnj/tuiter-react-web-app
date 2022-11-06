@@ -2,7 +2,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import TuitItem
     from "./TuitItem";
-import StatItem from "./statItem";
+
 
 
 const TuitsList = () => {
