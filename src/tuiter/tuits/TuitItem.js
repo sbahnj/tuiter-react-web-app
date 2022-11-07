@@ -2,7 +2,7 @@ import React from "react";
 import StatItem from "./statItem";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
-import WhoToFollowList from "../who-to-follow-list";
+
 
 
 const TuitItem = (

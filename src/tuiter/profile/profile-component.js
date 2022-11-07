@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch, useSelector} from "react-redux"
-import {addTodo, deleteTodo, todoDoneToggle}
+import {addTodo}
     from "./reducers/profile-reducer";
 
 const ToDos = () => {
