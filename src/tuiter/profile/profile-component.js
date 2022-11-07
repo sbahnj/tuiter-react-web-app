@@ -30,8 +30,9 @@ const ToDos = () => {
     function leaveEditMode() {
 
         document.getElementById("editProfile button").style.display = "block"
+        document.getElementById("Input line").style.display = "none"
         document.getElementById("Save button").style.display = "none"
-        document.getElementById("Input line").style.display = "block"
+        document.getElementById("Edit Profile heading").style.display = "none"
         document.getElementById("Profile heading").style.display = "block"
         document.getElementById("close-x").style.display = "none"
         console.log("leave edit mode found")
@@ -60,10 +61,10 @@ const ToDos = () => {
                         Save</button>
 
 
-                    <input id = "Input line"
+                    <input  id = "Input line"
                         onChange={todoChangeHandler}
                         value={todo.do}
-                        className="form-control w-75"/>
+                        className="form-control w-75 display-1"/>
                 </li>
 
                 {

@@ -21,10 +21,11 @@ const ReduxExamples = () => {
     function EditMode() {
 
         document.getElementById("close-x").style.display = "block"
+        document.getElementById("Input line").style.display = "block"
         document.getElementById("editProfile button").style.display = "none"
         document.getElementById("Save button").style.display = "block"
-        document.getElementById("input line").style.display = "block"
         document.getElementById("Profile heading").style.display = "none"
+        document.getElementById("Edit Profile heading").style.display = "block"
 
         console.log("EditMode excuted")
 
@@ -42,9 +43,11 @@ const ReduxExamples = () => {
     function leaveEditMode() {
 
         document.getElementById("editProfile button").style.display = "block"
+        document.getElementById("Input line").style.display = "block"
         document.getElementById("Save button").style.display = "none"
         document.getElementById("Input line").style.display = "block"
         document.getElementById("Profile heading").style.display = "block"
+        document.getElementById("Edit Profile heading").style.display = "none"
         document.getElementById("close-x").style.display = "none"
         console.log("leave edit mode found")
 
@@ -64,6 +67,7 @@ const ReduxExamples = () => {
 
 
                 <h2 id={"Profile heading"} >Profile</h2>
+                <h2 id={"Edit Profile heading"} >Edit Profile</h2>
 
 
                 <button id="editProfile button" onClick={gotoEditMode}
