@@ -11,17 +11,7 @@ const ToDos = () => {
 
     const dispatch = useDispatch();
 
-    const toggleTodoDone = (todo) => {
-        dispatch(todoDoneToggle(todo))
-    }
 
-
-
-
-
-    const deleteTodoClickHandler = (index) => {
-        dispatch(deleteTodo(index))
-    }
 
 
     const createTodoClickHandler = () => {

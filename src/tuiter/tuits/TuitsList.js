@@ -8,7 +8,7 @@ import TuitItem
 const TuitsList = () => {
 
     const tuitsArray = useSelector(state => state.tuits)
-    const statsArray = useSelector(state => state.tuitStats)
+
 
 
     return(

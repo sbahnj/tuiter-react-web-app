@@ -5,7 +5,7 @@ import ExploreComponent from "./explore"
 import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
 import ReduxExamples from "./profile";
-import ProfileComponent from "./profile/profile-component";
+
 
 import whoReducer
     from "./reducers/who-reducer";
@@ -18,7 +18,7 @@ import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import EditProfile from "./profile/editProfile";
-import WhoToFollowList from "./who-to-follow-list";
+
 import React from "react";
 
 
