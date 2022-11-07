@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import todos, {addTodo} from "./reducers/profile-reducer";
+import todos from "./reducers/profile-reducer";
 import Todos from "./profile-component";
 import {Provider} from "react-redux";
 
@@ -18,20 +18,43 @@ const store = configureStore({
 const ReduxExamples = () => {
 
 
-    function gotoEditMode() {
+    function EditMode() {
 
+        document.getElementById("close-x").style.display = "block"
         document.getElementById("editProfile button").style.display = "none"
         document.getElementById("Save button").style.display = "block"
         document.getElementById("input line").style.display = "block"
         document.getElementById("Profile heading").style.display = "none"
-        console.log("edit mode found")
+
+        console.log("EditMode excuted")
+
 
     }
+
+    function gotoEditMode(){
+
+
+        EditMode();
+
+    }
+
+
+    function leaveEditMode() {
+
+        document.getElementById("editProfile button").style.display = "block"
+        document.getElementById("Save button").style.display = "none"
+        document.getElementById("Input line").style.display = "block"
+        document.getElementById("Profile heading").style.display = "block"
+        document.getElementById("close-x").style.display = "none"
+        console.log("leave edit mode found")
+
+    }
+
 
     return(
         <Provider store={store}>
 
-            <i id={"close-x"} className="bi bi-x-lg float-end" ></i>
+            <i  id={"close-x"} className="bi bi-x-lg float-end" onClick={leaveEditMode}></i>
 
             <img className="fa-rectangle-ad float-left" height={250} src={`/images/banner_grass.png`} alt={"who to follow"}/>
             <img className="rounded-circle float-left" height={48} src={`/images/unicorn-clipart-6.jpg`} alt={"who to follow"}/>
@@ -45,6 +68,8 @@ const ReduxExamples = () => {
 
                 <button id="editProfile button" onClick={gotoEditMode}
                         className="btn btn-primary rounded-pill float-end">Edit Profile</button>
+
+
 
 
 
