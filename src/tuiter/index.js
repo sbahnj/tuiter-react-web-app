@@ -22,12 +22,10 @@ import EditProfile from "./profile/editProfile";
 import React from "react";
 
 
-
-
-
-
-const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, tuitStats: statsReducer, profile: profileReducer}});
+const store = configureStore({
+    reducer: {
+        who: whoReducer,
+        tuitsData: tuitsReducer}});
 
 
 function Tuiter() {
