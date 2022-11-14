@@ -19,6 +19,7 @@ const TuitsList = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(findTuitsThunk())
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
@@ -38,7 +39,9 @@ const TuitsList = () => {
 
             <li>
 
-                tuits
+                tuits should go here
+                <TuitItem/>
+
 
             {
                 tuits.map(tuits =>
