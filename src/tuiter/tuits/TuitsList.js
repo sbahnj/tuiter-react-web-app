@@ -39,8 +39,7 @@ const TuitsList = () => {
 
             <li>
 
-                tuits go here
-                <TuitItem/>
+
 
 
             {
