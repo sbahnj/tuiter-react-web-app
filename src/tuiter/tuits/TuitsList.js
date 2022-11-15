@@ -39,7 +39,7 @@ const TuitsList = () => {
 
             <li>
 
-                tuits should go here
+                tuits go here
                 <TuitItem/>
 
 
