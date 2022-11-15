@@ -23,6 +23,16 @@ const TuitStats = (
                 <div className="col-2">{tuit.retuits}</div>
                 <div className="col-2">{tuit.liked}</div>
 
+                {tuit.tuit}
+                <div>
+                    Likes: {tuit.likes}
+                    <i onClick={() => dispatch(updateTuitThunk({
+                        ...tuit,
+                        likes: tuit.likes + 1
+                    }))} className="bi bi-heart-fill me-2 text-danger"></i>
+                </div>
+
+
             </div>
         </li>
     );

@@ -1,10 +1,6 @@
 import axios from "axios";
 const TUITS_API = 'http://localhost:4000/api/tuits';
 
-export const createTuit = async (tuit) => {}
-
-
-export const updateTuit = async (tuit) => {}
 
 
 export const findTuits = async () => {
@@ -18,6 +14,22 @@ export const deleteTuit = async (tid) => {
         .delete(`${TUITS_API}/${tid}`)
     return response.data
 }
+
+
+export const createTuit = async (tuit) => {
+    const response = await axios.post(TUITS_API, tuit)
+    return response.data;
+}
+
+export const updateTuit = async (tuit) => {
+    const response = await axios
+        .put(`${TUITS_API}/${tuit._id}`, tuit);
+    return tuit;
+}
+
+
+
+
 
 
 
