@@ -10,8 +10,7 @@ import ReduxExamples from "./profile";
 import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
-import statsReducer from "./tuits/stats-reducer";
-import profileReducer from "./profile/reducers/profile-reducer";
+
 
 
 import { configureStore }
