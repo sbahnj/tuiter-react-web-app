@@ -12,8 +12,11 @@ const TUITS_API = `${API_BASE}/tuits`;
 
 export const findTuits = async () => {
     const response = await axios.get(TUITS_API);
-    return response.data;
+    const tuits = response.data;
+    return tuits;
 }
+
+
 
 export const deleteTuit = async (tid) => {
     const response = await axios
@@ -23,7 +26,8 @@ export const deleteTuit = async (tid) => {
 
 
 export const createTuit = async (tuit) => {
-    const response = await axios.post(TUITS_API, tuit)
+    const response = await axios
+        .post(`${TUITS_API}`, tuit);
     return response.data;
 }
 
