@@ -39,17 +39,12 @@ const TuitsList = () => {
 
             <li>
 
+                tuits go here
 
 
 
-            {
-                tuits.map(tuits =>
-                    <TuitItem
-                        key={tuits._id}
-                        post={tuits}/> )
 
 
-            }
 
 
             </li>
