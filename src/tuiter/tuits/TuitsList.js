@@ -38,9 +38,11 @@ const TuitsList = () => {
 
 
             <li>
-
-                tuits go here
-
+                {
+                    tuits.map((tuit) =>
+                        <li>{tuit.tuit}</li>
+                    )
+                }
 
 
 
