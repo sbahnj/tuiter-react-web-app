@@ -53,6 +53,7 @@ const TuitsList = () => {
                 {
                     tuits.map((tuit) =>
                         <li>
+                            <img className="rounded-circle" height={48} src={`/images/spaceX_logo.jpg`} alt={"tuit"}/>
                             <i className="bi bi-x-lg float-end"
                                onClick={() => deleteTuitHandler(tuit._id)}></i>
                             {tuit.tuit}
