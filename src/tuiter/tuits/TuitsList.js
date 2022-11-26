@@ -3,8 +3,9 @@ import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux"
 
 //import TuitItem from "./TuitItem";
-import {deleteTuitThunk, findTuitsThunk}
+import {deleteTuitThunk, findTuitsThunk, updateTuitThunk}
     from "../../services/tuits-thunks";
+
 
 
 
@@ -14,9 +15,13 @@ const TuitsList = () => {
 
 
 
+
+
     const {tuits, loading} = useSelector(
         state => state.tuitsData)
+
     const dispatch = useDispatch();
+
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));}
 
@@ -32,13 +37,11 @@ const TuitsList = () => {
 
 
 
-
-
     return(
 
 
 
-        <ol className="list-group">
+        <ul  className="list-group">
 
             {
                 loading &&
@@ -48,17 +51,34 @@ const TuitsList = () => {
             }
 
 
-            <li>
+            <li >
 
                 {
                     tuits.map((tuit) =>
-                        <li>
+                        <li className="list-group-item">
                             <img className="rounded-circle" height={48} src={`/images/spaceX_logo.jpg`} alt={"tuit"}/>
                             <i className="bi bi-x-lg float-end"
                                onClick={() => deleteTuitHandler(tuit._id)}></i>
                             {tuit.tuit}
-                            <p></p>
-                            {tuit.likes}
+
+
+
+                            <div>
+                                Likes: {tuit.likes}
+
+
+
+                                <i  onClick={() => dispatch(updateTuitThunk({
+                                    ...tuit,
+                                    likes: tuit.likes + 1
+                                }))} className="bi bi-heart-fill me-2 text-danger" ></i>
+
+                                &emsp;&#x1f4ac;&emsp;&emsp;&#8635;&emsp;&emsp;&#10514;
+
+                            </div>
+
+
+
                         </li>
                     )
                 }
@@ -72,7 +92,7 @@ const TuitsList = () => {
 
 
 
-        </ol>
+        </ul>
 
 
 

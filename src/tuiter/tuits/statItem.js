@@ -19,6 +19,7 @@ const StatItem = (
         <li className="list-group-item">
             <div className="row">
 
+                &#x1f4ac;&emsp;&emsp;&#8635;&emsp;&emsp;&#9825;&emsp;&emsp;&#10514;
                 <div className="col-2">{tuit.replies}</div>
                 <div className="col-2">{tuit.retuits}</div>
                 <div className="col-2">{tuit.liked}</div>
