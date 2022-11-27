@@ -25,6 +25,21 @@ const TuitsList = () => {
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));}
 
+    const likeTuitHandler = (tuit) => {
+        dispatch(updateTuitThunk({
+            ...tuit,
+            likes: tuit.likes + 1,
+            liked : true
+        }));}
+
+
+    const dislikeTuitHandler = (tuit) => {
+        dispatch(updateTuitThunk({
+            ...tuit,
+            likes: tuit.likes - 1,
+            liked : false
+        }));}
+
 
 
 
@@ -68,10 +83,11 @@ const TuitsList = () => {
 
 
 
-                                <i  onClick={() => dispatch(updateTuitThunk({
-                                    ...tuit,
-                                    likes: tuit.likes + 1
-                                }))} className="bi bi-heart-fill me-2 text-danger" ></i>
+                                {tuit.liked && <i onClick={() => dislikeTuitHandler(tuit)} className="bi bi-heart-fill text-danger"></i> }
+                                {!tuit.liked && <i onClick={() => likeTuitHandler(tuit)} className="bi bi-heart"></i> }
+
+
+
 
                                 &emsp;&#x1f4ac;&emsp;&emsp;&#8635;&emsp;&emsp;&#10514;
 
