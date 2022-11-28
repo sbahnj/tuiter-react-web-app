@@ -29,7 +29,7 @@ function App() {
                            element={<HelloWorld/>}/>
                     <Route path = "/labs/a7"
                            element={<Assignment7/>}/>
-                    <Route path="/tuiter/*"
+                    <Route path="src/tuiter/*"
                            element={<Tuiter/>}/>
                     <Route index
                            element={<IndexElement/>}/>
